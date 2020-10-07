@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="OpenLayers.js"></script>
+  <script>
+
+    function showMap() {
+
+        map = new OpenLayers.Map("exampleMap");
+        var mapnik         = new OpenLayers.Layer.OSM();
+        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+        var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+        var position       = new OpenLayers.LonLat(	-122.27, 37.87).transform( fromProjection, toProjection);
+        var zoom           = 15;
+
+        map.addLayer(mapnik);
+        map.setCenter(position, zoom );
+    }
+  </script>
+</head>
+
+<body onload="showMap()">
+    <div class="heading">
+        <h2> VRU SIMULATION VIEW </h2>
+    </div>
+    <br>
+    <div id="exampleMap" style="height:400px"></div>
+    <br>
+</body>
+
+</html>
