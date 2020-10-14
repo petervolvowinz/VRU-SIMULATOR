@@ -1,0 +1,18 @@
+{
+  "vru-simulation-data":{
+    "name": "simdata-example",
+    "simdata": [
+      {
+        "routename": "pastoria avenue",
+        "gps": [{"lat": 37.386339,"long": -122.040848},{"lat":37.384997,"long":-122.034524}],
+        "vrus": [{"type":"BIKE","number":5},{"type":"PEDESTRIAN","number":5}]
+      },
+      {
+        "routename": "south pastoria avenue",
+        "gps": [{"lat": 37.386239,"long": -122.30848},{"lat":37.382997,"long":-122.03433524}],
+        "vrus": [{"type":"BIKE","number":2},{"type":"PEDESTRIAN","number":3}]
+      }
+    ]
+  }
+
+}

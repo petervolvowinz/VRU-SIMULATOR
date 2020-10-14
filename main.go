@@ -20,7 +20,7 @@ func pingHandler(w http.ResponseWriter, r *http.Request){
 func ServeSimulationView() error {
 	http.HandleFunc("/version", pingHandler)
 	http.Handle("/", http.FileServer(http.Dir("./static")))
-	return http.ListenAndServe(":8081", nil)
+	return http.ListenAndServe(":8082", nil)
 }
 
 func main(){

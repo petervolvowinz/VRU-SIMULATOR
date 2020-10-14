@@ -1,15 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f91198ce-61f0-4ba8-8db8-35d9750c69b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/output_example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iZPVp83MHn2ZjbyjtVt7J6ZTkJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build VRU-SIMULATOR">
+    <configuration name="go build VRU-SIMULATOR" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="VRU-SIMULATOR" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="VRU-SIMULATOR" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="VRU-SIMULATOR" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="VRU-SIMULATOR" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build VRU-SIMULATOR" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2222" height="237" key="GridCell.Tab.0.bottom" timestamp="1602710103446">
+      <screen x="-3840" y="-1197" width="3840" height="2137" />
+    </state>
+    <state width="1638" height="243" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1680.989@-1920.23.1920.1057" timestamp="1602285824906" />
+    <state width="1638" height="243" key="GridCell.Tab.0.bottom/-3600.0.1920.1057/0.23.1920.1017/-1680.-100.1680.1027@-1680.-100.1680.1027" timestamp="1602534756178" />
+    <state width="2222" height="237" key="GridCell.Tab.0.bottom/-3840.-1197.3840.2137/0.23.1680.986@-3840.-1197.3840.2137" timestamp="1602710103446" />
+    <state width="2222" height="237" key="GridCell.Tab.0.center" timestamp="1602710103445">
+      <screen x="-3840" y="-1197" width="3840" height="2137" />
+    </state>
+    <state width="1638" height="243" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1680.989@-1920.23.1920.1057" timestamp="1602285824904" />
+    <state width="1638" height="243" key="GridCell.Tab.0.center/-3600.0.1920.1057/0.23.1920.1017/-1680.-100.1680.1027@-1680.-100.1680.1027" timestamp="1602534756177" />
+    <state width="2222" height="237" key="GridCell.Tab.0.center/-3840.-1197.3840.2137/0.23.1680.986@-3840.-1197.3840.2137" timestamp="1602710103445" />
+    <state width="2222" height="237" key="GridCell.Tab.0.left" timestamp="1602710103445">
+      <screen x="-3840" y="-1197" width="3840" height="2137" />
+    </state>
+    <state width="1638" height="243" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1680.989@-1920.23.1920.1057" timestamp="1602285824903" />
+    <state width="1638" height="243" key="GridCell.Tab.0.left/-3600.0.1920.1057/0.23.1920.1017/-1680.-100.1680.1027@-1680.-100.1680.1027" timestamp="1602534756177" />
+    <state width="2222" height="237" key="GridCell.Tab.0.left/-3840.-1197.3840.2137/0.23.1680.986@-3840.-1197.3840.2137" timestamp="1602710103445" />
+    <state width="2222" height="237" key="GridCell.Tab.0.right" timestamp="1602710103446">
+      <screen x="-3840" y="-1197" width="3840" height="2137" />
+    </state>
+    <state width="1638" height="243" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1680.989@-1920.23.1920.1057" timestamp="1602285824905" />
+    <state width="1638" height="243" key="GridCell.Tab.0.right/-3600.0.1920.1057/0.23.1920.1017/-1680.-100.1680.1027@-1680.-100.1680.1027" timestamp="1602534756178" />
+    <state width="2222" height="237" key="GridCell.Tab.0.right/-3840.-1197.3840.2137/0.23.1680.986@-3840.-1197.3840.2137" timestamp="1602710103446" />
+    <state x="-2688" y="-489" width="1340" height="1367" key="search.everywhere.popup" timestamp="1602709860128">
+      <screen x="-3840" y="-1197" width="3840" height="2137" />
+    </state>
+    <state x="-1344" y="373" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1680.989@-1920.23.1920.1057" timestamp="1602283343090" />
+    <state x="-2688" y="-489" width="1340" height="1367" key="search.everywhere.popup/-3840.-1197.3840.2137/0.23.1680.986@-3840.-1197.3840.2137" timestamp="1602709860128" />
   </component>
 </project>
