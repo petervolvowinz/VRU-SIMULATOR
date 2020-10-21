@@ -1,6 +1,81 @@
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWFyaWEtaTI4MyIsImEiOiJjamVqMDVxdm4zYzl5MnBsbnZhZjV1MDkyIn0.bl4Y0AewatInkbnEfTs6Pg'
 
+/*
+{
+    "vru-simulation-data":{
+    "name": "simdata-example",
+        "simdata": [
+        {
+            "routename": "pastoria avenue",
+            "gps": [{"lat": 37.386339,"long": -122.040848},{"lat":37.384997,"long":-122.034524}],
+            "vrus": [{"type":"BIKE","number":5},{"type":"PEDESTRIAN","number":5}]
+        },
+        {
+            "routename": "south pastoria avenue",
+            "gps": [{"lat": 37.386239,"long": -122.30848},{"lat":37.382997,"long":-122.03433524}],
+            "vrus": [{"type":"BIKE","number":2},{"type":"PEDESTRIAN","number":3}]
+        }
+    ]
+}
+
+}*/
+
+
+// javascript json to javascript example
+var recievedSimData  = (data) => {
+    var simulationdata = {
+        "vru-simulation-data": {
+            name: "simdata-example",
+            simdata: data,
+        }
+    }
+    return simulationdata;
+}
+
+// the data is being loaded into the data structure, all valid json
+var createdSimData = recievedSimData([
+    {
+        "routename": "pastoria avenue",
+        "gps": [[37.386339,-122.040848],[37.384997,-122.034524]],
+        "vrus": [{"type":"BIKE","number":5},{"type":"PEDESTRIAN","number":5}]
+    },
+    {
+        "routename": "south pastoria avenue",
+        "gps": [[37.386239,-122.30848],[37.382997,-122.03433524]],
+        "vrus": [{"type":"BIKE","number":2},{"type":"PEDESTRIAN","number":3}]
+    }
+]);
+
+// changing the simdata name
+createdSimData["vru-simulation-data"].name = " my-test-data"
+// look in the console at the data
+console.log(createdSimData)
+
+// adding another route we are using lodash.js lib, and we are adding the new to the olddata structure keeping it in the same var
+_.set(createdSimData, "vru-simulation-data.simdata", [..._.get(createdSimData, "vru-simulation-data.simdata"), {
+    "routename": "south pastoria2 avenue",
+    "gps": [[37.386239,-122.30848],[37.382997,-122.03433524]],
+    "vrus": [{"type":"BIKE","number":4},{"type":"PEDESTRIAN","number":5}]
+}]);
+
+console.log("added new item to simdata structure")
+console.log(createdSimData)
+
+// so now a function that adds the geo coordinates to the createdSimData...
+function addingFromMapExample(routename,gps,vrus) {
+
+    _.set(createdSimData, "vru-simulation-data.simdata", [..._.get(createdSimData, "vru-simulation-data.simdata"), {
+        "routename": routename,
+        "gps": gps,
+        "vrus": [{"type": "BIKE", "number": 4}, {"type": "PEDESTRIAN", "number": 5}]
+    }])
+
+    console.log(createdSimData)
+}
+
+
+
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v10',
@@ -46,6 +121,7 @@ function getRoute(end) {
         // if the route already exists on the map, reset it using setData
         if (map.getSource('route')) {
             map.getSource('route').setData(geojson);
+            addingFromMapExample("aroutename",geojson.geometry.coordinates)
         } else { // otherwise, make a new request
             map.addLayer({
                 id: 'route',
