@@ -1,4 +1,5 @@
-converttosimdata.py integrates VRUS from terminal input and csv file and converts them into a json file.
+converttosimdata.py integrates VRUS from terminal input and csv file and converts them into a json file. Current script parses the udacity open data set: https://github.com/udacity/self-driving-car/tree/master/datasets
+
 
 ## TERMINAL INPUT GUIDE
 * Road user types in order: BIKE, PEDESTRIAN, CAR, TRUCK, SKATER
